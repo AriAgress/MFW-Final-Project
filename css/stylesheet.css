@@ -1,3 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+
+.bg-img {
+  background-image: url(https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs);
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .nav-drop-down{
 text-align: right;
+}
+
+.jumbo-bg {
+  background: none;
+}
+
+.nav-text {
+font-family: 'lobster', cursive;
+}
+
+
+.jumbotron-text{
+  font-family: 'lobster', cursive;
+  color: rgb(255, 255, 255, 0.9);
+  /* font-size: 125px;
+  position: absolute;
+  top: 25vh;
+  width: 100%; */
+  text-align: center;
+}
+
+.btn-circle {
+    width: 35px;
+    height: 35px;
+    padding: 6px 0px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.center-text{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.bg-img2 {
+  background-image: url(https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68);
+  height: 85vh;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-img3 {
+  background-image: url(https://i.picsum.photos/id/1016/3844/2563.jpg?hmac=WEryKFRvTdeae2aUrY-DHscSmZuyYI9jd_-p94stBvc);
+  height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  margin-top: 60px;
+  margin-left: 240px;
+}
+
+.bg-img4 {
+  background-image: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
+  height: 550px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  margin-top: 60px;
+  margin-right: 240px;
+}
+
+.bg-img5 {
+  background-image: url(https://i.picsum.photos/id/1020/4288/2848.jpg?hmac=Jo3ofatg0fee3HGOliAIIkcg4KGXC8UOTO1dm5qIIPc);
+  height: 300px;
+  width: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  /* margin-top: 60px;
+  margin-right: 240px; */
+}
+
+.bg-img6 {
+  background-image: url(https://i.picsum.photos/id/1018/3914/2935.jpg?hmac=3N43cQcvTE8NItexePvXvYBrAoGbRssNMpuvuWlwMKg);
+  height: 300px;
+  width: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  /* margin-top: 60px;
+  margin-right: 240px; */
+}
+
+.bg-img7 {
+  background-image: url(https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts);
+  height: 300px;
+  width: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  /* margin-top: 60px;
+  margin-right: 240px; */
+}
+
+.bg-img8 {
+  background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
+  height: 300px;
+  width: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  /* margin-top: 60px;
+  margin-right: 240px; */
+}
+
+.center-text2{
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
 }
