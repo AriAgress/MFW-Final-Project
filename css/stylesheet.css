@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
 
-.bg-img {
-  background-image: url(https://i.picsum.photos/id/1019/5472/3648.jpg?hmac=2mFzeV1mPbDvR0WmuOWSiW61mf9DDEVPDL0RVvg1HPs);
+.spacebg_img {
+  background-image: url('/IMG/spacebg.jpg');
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacebg_overlay1{
+  background-color:rgba(0, 0, 0, 0.3);
   height: 85vh;
   background-attachment: fixed;
   background-position: center;
@@ -15,6 +24,11 @@ text-align: center;
 
 .jumbo-bg {
   background: none;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
 }
 
 .nav-text {
@@ -41,19 +55,47 @@ font-family: 'lobster', cursive;
     font-size: 12px;
 }
 
-.center-text{
-width: 100%;
+.img2_text{
 height: 100%;
+width: 65%;
 display: flex;
 flex-direction: column;
-align-items: center;
-justify-content: center;
+align-items: start;
+padding-top:290px;
+padding-right: 500px;
 }
 
 .bg-img2 {
-  background-image: url(https://i.picsum.photos/id/10/2500/1667.jpg?hmac=J04WWC_ebchx3WwzbM-Z4_KC_LeLBWr5LZMaAkWkF68);
+  background-image: url('/IMG/skatedog.jpg');
   height: 85vh;
-  width: 100%;
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.skatedog_overlay{
+  background-color:rgba(0, 0, 0, 0.1);
+  height: 85vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.spacebg_img2 {
+  background-image: url('/IMG/spacebg.jpg');
+  height: 135vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacebg_overlay2 {
+  background-color:rgba(0, 0, 0, 0.3);
+  height: 135vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,9 +103,10 @@ justify-content: center;
 }
 
 .bg-img3 {
-  background-image: url(https://i.picsum.photos/id/1016/3844/2563.jpg?hmac=WEryKFRvTdeae2aUrY-DHscSmZuyYI9jd_-p94stBvc);
+  background-image: url('/IMG/skateimg3.jpg');
   height: 550px;
-  background-attachment: fixed;
+  width: 720px;
+  background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,15 +116,38 @@ justify-content: center;
 }
 
 .bg-img4 {
-  background-image: url(https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I);
+  background-image: url('/IMG/skateimg4.jpg');
   height: 550px;
-  background-attachment: fixed;
+  width: 720px;
+  background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: 17px;
   margin-top: 60px;
   margin-right: 240px;
+}
+
+.overlay3:hover{
+  background-color:rgba(0, 0, 0, 0.3);
+  height: 550px;
+  width: 720px;
+  background-attachment: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.center-text{
+width: 100%;
+height: 100%;
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
 }
 
 .text-transition{
@@ -147,11 +213,10 @@ margin-left: 227px;
 background-color: black;
 color: white;
 height: 40vh;
-margin-top: 25px;
 }
 
 .footer-spacing{
-padding-top: 80px;
+padding-top: 95px;
 display: flex;
 align-items: space-around;
 justify-content: space-around;
