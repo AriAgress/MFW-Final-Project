@@ -102,10 +102,10 @@ padding-right: 500px;
   background-size: cover;
 }
 
-.bg-img3 {
+.bg_img3 {
   background-image: url('/IMG/skateimg3.jpg');
   height: 550px;
-  width: 720px;
+  width: 715px;
   background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,10 +115,10 @@ padding-right: 500px;
   margin-left: 240px;
 }
 
-.bg-img4 {
+.bg_img4 {
   background-image: url('/IMG/skateimg4.jpg');
   height: 550px;
-  width: 720px;
+  width: 715px;
   background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@ padding-right: 500px;
 .overlay3:hover{
   background-color:rgba(0, 0, 0, 0.3);
   height: 550px;
-  width: 720px;
+  width: 715px;
   background-attachment: absolute;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,8 +163,8 @@ margin-bottom: 0;
 
 .bg-img5 {
   background-image: url(https://i.picsum.photos/id/1020/4288/2848.jpg?hmac=Jo3ofatg0fee3HGOliAIIkcg4KGXC8UOTO1dm5qIIPc);
-  height: 345px;
-  width: 345px;
+  height: 343px;
+  width: 343px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -174,8 +174,8 @@ margin-bottom: 0;
 
 .bg-img6 {
   background-image: url(https://i.picsum.photos/id/1018/3914/2935.jpg?hmac=3N43cQcvTE8NItexePvXvYBrAoGbRssNMpuvuWlwMKg);
-  height: 345px;
-  width: 345px;
+  height: 343px;
+  width: 343px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,8 +185,8 @@ margin-bottom: 0;
 
 .bg-img7 {
   background-image: url(https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts);
-  height: 345px;
-  width: 345px;
+  height: 343px;
+  width: 343px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -196,8 +196,8 @@ margin-bottom: 0;
 
 .bg-img8 {
   background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
-  height: 345px;
-  width: 345px;
+  height: 343px;
+  width: 343px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
