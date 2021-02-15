@@ -110,9 +110,6 @@ padding-right: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 13px;
-  margin-top: 60px;
-  margin-left: 240px;
 }
 
 .bg_img4 {
@@ -123,9 +120,6 @@ padding-right: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 17px;
-  margin-top: 60px;
-  margin-right: 240px;
 }
 
 .overlay3:hover{
@@ -205,10 +199,6 @@ margin-bottom: 0;
 
 }
 
-.fourth-row{
-margin-left: 227px;
-}
-
 .footer{
 background-color: black;
 color: white;
@@ -220,4 +210,14 @@ padding-top: 95px;
 display: flex;
 align-items: space-around;
 justify-content: space-around;
+}
+
+.cards {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.card{
+  border: none;
+  background: none;
 }
