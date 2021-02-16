@@ -114,7 +114,7 @@ font-family: 'Open Sans', sans-serif;
 
 .spacebg_img2 {
   background-image: url('/IMG/spacebg.jpg');
-  height: 135vh;
+  height: 155vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,7 +123,7 @@ font-family: 'Open Sans', sans-serif;
 
 .spacebg_overlay2 {
   background-color:rgba(0, 0, 0, 0.4);
-  height: 135vh;
+  height: 155vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -182,48 +182,10 @@ color:rgba(207, 209, 53);
 margin-bottom: 0;
 }
 
-.bg-img5 {
-  background-image: url(https://i.picsum.photos/id/1020/4288/2848.jpg?hmac=Jo3ofatg0fee3HGOliAIIkcg4KGXC8UOTO1dm5qIIPc);
-  height: 343px;
-  width: 343px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.bg-img6 {
-  background-image: url(https://i.picsum.photos/id/1018/3914/2935.jpg?hmac=3N43cQcvTE8NItexePvXvYBrAoGbRssNMpuvuWlwMKg);
-  height: 343px;
-  width: 343px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.bg-img7 {
-  background-image: url(https://i.picsum.photos/id/1021/2048/1206.jpg?hmac=fqT2NWHx783Pily1V_39ug_GFH1A4GlbmOMu8NWB3Ts);
-  height: 343px;
-  width: 343px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-.bg-img8 {
-  background-image: url(https://i.picsum.photos/id/1025/4951/3301.jpg?hmac=_aGh5AtoOChip_iaMo8ZvvytfEojcgqbCH7dzaz-H8Y);
-  height: 343px;
-  width: 343px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
 }
 
 .footer{
@@ -332,7 +294,7 @@ justify-content: space-around;
   text-align: center;
   margin: 26px 0;
   font-family: 'yellowtail', cursive;
-  font-size: 46px;
+  font-size: 56px;
   color: rgba(207, 209, 53);
   text-shadow: 2px 3px 2px purple;
 }
