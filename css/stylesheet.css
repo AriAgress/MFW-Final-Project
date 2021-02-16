@@ -253,3 +253,105 @@ justify-content: space-around;
   border: none;
   background: none;
 }
+
+
+/* <----- Page 2 Carousel -----> */
+
+.spacebg_img_page2 {
+  background-image: url('/IMG/spacebg.jpg');
+  height: 25vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacebg_overlay_page2{
+  background-color:rgba(0, 0, 0, 0.4);
+  height: 25vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-text_page2{
+  font-family: 'yellowtail', cursive;
+  color: rgba(207, 209, 53, 0.9);
+  font-size: 75px;
+  position: absolute;
+  top: 1vh;
+  width: 100%;
+  text-align: center;
+}
+
+.carousel_button{
+  margin-top: 49em;
+}
+
+/* <----- Page 3 Contact Sheet -----> */
+
+.spacebg_img_page3 {
+  background-image: url('/IMG/spacebg.jpg');
+  height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacebg_overlay_page3{
+  background-color:rgba(0, 0, 0, 0.4);
+  height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-text_page3{
+  font-family: 'yellowtail', cursive;
+  color: rgba(207, 209, 53, 0.9);
+  font-size: 75px;
+  position: relative;
+  top: 1vh;
+  width: 100%;
+  text-align: center;
+}
+
+.contact_wrapper {
+  width: 900px;
+  padding: 24px;
+  margin: 44px auto;
+  border: 3px solid #fdf59c;
+  border-radius: 25px;
+}
+
+
+.contact_header {
+  text-align: center;
+  margin: 26px 0;
+  font-family: 'yellowtail', cursive;
+  font-size: 46px;
+  color: rgba(207, 209, 53);
+  text-shadow: 2px 3px 2px purple;
+}
+
+.contact_button {
+  position: relative;
+  display: block;
+  background-color: black;
+  border: none;
+  color: rgba(207, 209, 53);
+  padding: 8px 0;
+  font-family: 'yellowtail', cursive;
+  letter-spacing: 6px;
+  font-size: 18px;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.contact_text{
+  color:rgba(207, 209, 53);
+  font-family: 'yellowtail', cursive, bold;
+}
