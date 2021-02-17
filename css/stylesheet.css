@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@600&family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Yellowtail&display=swap');
 
 .spacebg_img {
   background-image: url('/IMG/spacebg.jpg');
@@ -10,7 +10,7 @@
 }
 
 .spacebg_overlay1 {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 85vh;
   background-attachment: fixed;
   background-position: center;
@@ -68,7 +68,7 @@ button {
 }
 
 .img2_text {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   height: 100%;
   width: 65%;
   display: flex;
@@ -103,7 +103,7 @@ h3 {
 }
 
 .skatedog_overlay {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   height: 85vh;
   background-attachment: fixed;
   background-position: center;
@@ -121,7 +121,7 @@ h3 {
 }
 
 .spacebg_overlay2 {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 155vh;
   background-attachment: fixed;
   background-position: center;
@@ -273,7 +273,7 @@ h3 {
 }
 
 .spacebg_overlay_page3 {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 220vh;
   background-attachment: fixed;
   background-position: center;
@@ -282,9 +282,9 @@ h3 {
 }
 
 .jumbotron-text_page3 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: rgba(207, 209, 53, 0.9);
-  font-size: 45px;
+  font-size: 40px;
   position: relative;
   top: 1vh;
   width: 100%;
@@ -299,8 +299,8 @@ h3 {
   color: rgba(207, 209, 53);
 }
 
-.text_lessonpage > h1{
-  font-family: 'yellowtail', cursive;
+.text_lessonpage > h2{
+  font-family: 'Oswald', 
 }
 
 .text_lessonpage > p{
@@ -319,7 +319,7 @@ h3 {
 }
 
 .spacebg_overlay_page4 {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.5);
   height: 150vh;
   background-attachment: fixed;
   background-position: center;
@@ -370,7 +370,7 @@ h3 {
 
 .contact_text {
   color: rgba(207, 209, 53);
-  font-family: 'yellowtail', cursive, bold;
+  font-family: 'Oswald', bold;
 }
 
 
