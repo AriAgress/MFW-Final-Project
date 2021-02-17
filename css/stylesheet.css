@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Yellowtail&display=swap');
 
+body{
+background: black;
+}
+
+
 .spacebg_img {
   background-image: url('/IMG/spacebg.jpg');
   height: 85vh;
@@ -54,11 +59,15 @@
   font-size: 12px;
 }
 
-button {
-  color: rgba(207, 209, 53);
+button{
   border: none;
   background: none;
   font-family: 'Open Sans', sans-serif;
+}
+
+button:hover a{
+    color: rgba(207, 209, 53);
+text-decoration: none;
 }
 
 .dropdown-item {
@@ -203,7 +212,7 @@ h3 {
 }
 
 .line_icons {
-  padding-top: 8em;
+  padding-top:4.5em;
 }
 
 .cards {
@@ -311,7 +320,7 @@ h3 {
 
 .spacebg_img_page4 {
   background-image: url('/IMG/spacebg.jpg');
-  height: 150vh;
+  height: 210vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -320,7 +329,7 @@ h3 {
 
 .spacebg_overlay_page4 {
   background-color: rgba(0, 0, 0, 0.5);
-  height: 150vh;
+  height: 210vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -373,6 +382,9 @@ h3 {
   font-family: 'Oswald', bold;
 }
 
+map{
+  background:none;
+}
 
 @media only screen and (max-width: 600px) {
 }
