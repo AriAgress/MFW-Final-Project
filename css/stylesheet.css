@@ -217,7 +217,7 @@ h3 {
   background: none;
 }
 
-/* <----- Page 2 Carousel -----> */
+/* <----- Page 2 Team -----> */
 
 .spacebg_img_page2 {
   background-image: url('/IMG/spacebg.jpg');
@@ -241,14 +241,10 @@ h3 {
   font-family: 'yellowtail', cursive;
   color: rgba(207, 209, 53, 0.9);
   font-size: 75px;
-  position: absolute;
-  top: 2vh;
+  position: relative;
+  top: 1vh;
   width: 100%;
   text-align: center;
-}
-
-.carousel_button {
-  margin-top: 4em;
 }
 
 .carousel-caption{
@@ -257,7 +253,7 @@ h3 {
 
 .bg_carousel {
   background: none;
-  margin-top: 1em;
+  margin-top: 4em;
 }
 
 .carousel-item > img {
@@ -265,11 +261,11 @@ h3 {
   height:660px;
 }
 
-/* <----- Page 3 Contact Sheet -----> */
+/* <----- Page 3 Lessons -----> */
 
 .spacebg_img_page3 {
   background-image: url('/IMG/spacebg.jpg');
-  height: 150vh;
+  height: 220vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -278,7 +274,7 @@ h3 {
 
 .spacebg_overlay_page3 {
   background-color: rgba(0, 0, 0, 0.4);
-  height: 150vh;
+  height: 220vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -286,6 +282,52 @@ h3 {
 }
 
 .jumbotron-text_page3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(207, 209, 53, 0.9);
+  font-size: 45px;
+  position: relative;
+  top: 1vh;
+  width: 100%;
+  text-align: center;
+}
+
+.text_lessonpage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgba(207, 209, 53);
+}
+
+.text_lessonpage > h1{
+  font-family: 'yellowtail', cursive;
+}
+
+.text_lessonpage > p{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* <----- Page 4 Contact Sheet -----> */
+
+.spacebg_img_page4 {
+  background-image: url('/IMG/spacebg.jpg');
+  height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.spacebg_overlay_page4 {
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 150vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron-text_page4 {
   font-family: 'yellowtail', cursive;
   color: rgba(207, 209, 53, 0.9);
   font-size: 75px;
@@ -330,6 +372,7 @@ h3 {
   color: rgba(207, 209, 53);
   font-family: 'yellowtail', cursive, bold;
 }
+
 
 @media only screen and (max-width: 600px) {
 }
