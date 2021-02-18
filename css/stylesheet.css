@@ -230,7 +230,7 @@ h3 {
 
 .spacebg_img_page2 {
   background-image: url('/IMG/spacebg.jpg');
-  height: 120vh;
+  height: 165vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -239,7 +239,7 @@ h3 {
 
 .spacebg_overlay_page2 {
   background-color: rgba(0, 0, 0, 0.4);
-  height: 120vh;
+  height: 165vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -254,6 +254,18 @@ h3 {
   top: 1vh;
   width: 100%;
   text-align: center;
+}
+
+.cards_team_page {
+  display: flex;
+  justify-content: space-around;
+  color: rgba(207, 209, 53);
+  margin-right:8em;
+}
+
+.card_team_page {
+  border: none;
+  background: none;
 }
 
 .carousel-caption{
