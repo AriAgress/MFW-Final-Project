@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@500&family=Yellowtail&display=swap');
 
-body{
-background: black;
+body {
+  background: black;
 }
-
 
 .spacebg_img {
   background-image: url('/IMG/spacebg.jpg');
@@ -59,15 +58,15 @@ background: black;
   font-size: 12px;
 }
 
-button{
+button {
   border: none;
   background: none;
   font-family: 'Open Sans', sans-serif;
 }
 
-button:hover a{
-    color: rgba(207, 209, 53);
-text-decoration: none;
+button:hover a {
+  color: rgba(207, 209, 53);
+  text-decoration: none;
 }
 
 .dropdown-item {
@@ -212,7 +211,7 @@ h3 {
 }
 
 .line_icons {
-  padding-top:4.5em;
+  padding-top: 4.5em;
 }
 
 .cards {
@@ -260,7 +259,7 @@ h3 {
   display: flex;
   justify-content: space-around;
   color: rgba(207, 209, 53);
-  margin-right:8em;
+  margin-right: 8em;
 }
 
 .card_team_page {
@@ -268,8 +267,8 @@ h3 {
   background: none;
 }
 
-.carousel-caption{
- color:black;
+.carousel-caption {
+  color: black;
 }
 
 .bg_carousel {
@@ -278,8 +277,8 @@ h3 {
 }
 
 .carousel-item > img {
-  width:640px;
-  height:660px;
+  width: 640px;
+  height: 660px;
 }
 
 /* <----- Page 3 Lessons -----> */
@@ -312,7 +311,7 @@ h3 {
   text-align: center;
 }
 
-.text_lessonpage{
+.text_lessonpage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -320,11 +319,11 @@ h3 {
   color: rgba(207, 209, 53);
 }
 
-.text_lessonpage > h2{
-  font-family: 'Oswald', 
+.text_lessonpage > h2 {
+  font-family: 'Oswald';
 }
 
-.text_lessonpage > p{
+.text_lessonpage > p {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -394,8 +393,8 @@ h3 {
   font-family: 'Oswald', bold;
 }
 
-map{
-  background:none;
+map {
+  background: none;
 }
 
 @media only screen and (max-width: 600px) {
