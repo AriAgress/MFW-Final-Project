@@ -65,14 +65,14 @@ button {
 }
 
 button:hover a {
-  color: rgba(207, 209, 53);
+  color: rgba(207, 209, 53) !important;
   text-decoration: none;
 }
 
 .dropdown-item {
-  color: rgba(207, 209, 53);
-  border: none;
-  background: none;
+  color: rgba(207, 209, 53) !important;
+  border: none !important;
+  background: none !important;
 }
 
 .img2_text {
